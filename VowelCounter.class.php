@@ -3,10 +3,10 @@
 class VowelCounter {
 	
 	protected $string;
-	protected $numVowels = 0;
-	protected $vowelsList = "aeiou";
 	protected $totalLength;
 	protected $isLong = false;
+	protected $vowelsList = "aeiou";
+	protected $numVowels = 0;
 	protected $chunkArray = [];
 
 	public function __construct($string) {
